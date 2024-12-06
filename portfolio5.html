@@ -14,14 +14,15 @@
 <div class="top-container">
 
     <header>
+        <img src="Images/Enehana.png">
         <h1>Enehana</h1>
     </header>
 
     <nav class="main-nav">
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolios.html" class="active">Portfolios</a></li>
+            <li><a href="home.html"  class="main-nav-home">Home</a></li>
+            <li><a href="about.html" class="main-nav-home">About</a></li>
+            <li><a href="portfolios.html" class="main-nav-home active">Portfolios</a></li>
         </ul>
     </nav>
 
@@ -32,20 +33,204 @@
     <nav>
         <h3>Portfolios</h3>
         <ul>
-            <li><a href="portfolio1.html">Portfolio 1</a></li>
-            <li><a href="portfolio2.html">Portfolio 2</a></li>
-            <li><a href="portfolio3.html">Portfolio 3</a></li>
-            <li><a href="portfolio4.html">Portfolio 4</a></li>
-            <li><a href="portfolio5.html">Portfolio 5</a></li>
-            <li><a href="portfolio6.html">Portfolio 6</a></li>
+            <li><a href="portfolio1.html">Computer Science as Discipline, Computing Disciplines and Majors</a></li>
+            <li><a href="portfolio2.html">Data, Information, and Information Systems</a></li>
+            <li><a href="portfolio3.html">Number Systems</a></li>
+            <li><a href="portfolio4.html">Computer Hardware and Software: Their Implementation in the different institutions in the community</a></li>
+            <li><a href="portfolio5.html" class="active">Comparative Study On Different Types Of Motherboards</a></li>
+            <li><a href="portfolio6.html">Comparative Study on Different Types of Computers</a></li>
         </ul>
     </nav>
 
 </div>
 
-<div class="pdf-container">
+<div class="portfolio-container">
+    
+    <h2 class="portfolio-main-header">Comparative Study on Different Types of Motherboards | Portfolio #5</h2>
 
-    <iframe src="PDFs/portfolio5.pdf" frameborder="0"></iframe>
+    <div class="portfolio-text">
+        <h2 class="portfolio-header">Introduction</h2>
+        <p>
+            Motherboards constitute the basic parts of any computer system and come in different
+            types to suit different applications as well as the form factor. The AT motherboard, an
+            older large design, is quite limited in terms of expansion facilities, incorporates legacy
+            bios and has less functionality in comparison to modern types. An ATX motherboard,
+            which is widely used also today, has a good balance between performance and
+            expandability with many PCI slots, SATA ports and a UEFI bios. When it comes to
+            minitower systems smaller options like Micro-ATX and Mini-ITX can be used which
+            provide a decent amount of functionality but have fewer slots and ports. With
+            self-contained high performance systems in mind, the Extended-ATX provides
+            additional CPU and RAM slots allowing for high performance builds. There are also LPX
+            and Pico-BTX which are low-profile designs that are minimal in size but this invariably
+            leads to low expandability. Each kind is suited to complete what tasks it is most
+            intended for low costs systems, high end gaming or server builds.
+
+        </p>
+
+    </div>
+
+    <div class="portfolio-text" style="border-width: 0px;">
+        <h2 class="portfolio-header">Motherboard Types Comparison</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Motherboard Type</th>
+                    <th>Form Factor</th>
+                    <th>CPU Slots</th>
+                    <th>Memory Slots</th>
+                    <th>Chipsets</th>
+                    <th>BIOS</th>
+                    <th>PCI Slots</th>
+                    <th>SATA Ports</th>
+                    <th>Built-in Features</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AT Motherboard</td>
+                    <td>Large, older</td>
+                    <td>1 (Socket)</td>
+                    <td>2-4</td>
+                    <td>Intel 820, VIA</td>
+                    <td>Legacy BIOS</td>
+                    <td>4-5</td>
+                    <td>2-4</td>
+                    <td>No USB 3.0, old standard, limited expansion options</td>
+                </tr>
+                <tr>
+                    <td>ATX Motherboard</td>
+                    <td>Standard</td>
+                    <td>1-2 (Socket)</td>
+                    <td>2-8</td>
+                    <td>Intel Z590, AMD B550</td>
+                    <td>UEFI BIOS, Secure Boot</td>
+                    <td>5-7</td>
+                    <td>4-8</td>
+                    <td>High I/O, multiple USB, PCIe slots, high RAM capacity</td>
+                </tr>
+                <tr>
+                    <td>BTX Motherboard</td>
+                    <td>Asymmetric</td>
+                    <td>1 (Socket)</td>
+                    <td>2-4</td>
+                    <td>Intel 945, 965</td>
+                    <td>UEFI BIOS</td>
+                    <td>2-4</td>
+                    <td>4-6</td>
+                    <td>Optimized airflow for heat dissipation, fewer expansion slots</td>
+                </tr>
+                <tr>
+                    <td>Extended-ATX Motherboard</td>
+                    <td>Larger ATX</td>
+                    <td>1-2 (Socket)</td>
+                    <td>4-8</td>
+                    <td>Intel X299, AMD X570</td>
+                    <td>UEFI BIOS</td>
+                    <td>6-10</td>
+                    <td>6-10</td>
+                    <td>High-end components, extra PCIe slots, more RAM slots</td>
+                </tr>
+                <tr>
+                    <td>LPX Motherboard</td>
+                    <td>Low-profile</td>
+                    <td>1 (Socket)</td>
+                    <td>2-4</td>
+                    <td>Intel 810</td>
+                    <td>Legacy BIOS</td>
+                    <td>1-2</td>
+                    <td>2-4</td>
+                    <td>Compact, designed for small cases, few expansion options</td>
+                </tr>
+                <tr>
+                    <td>Micro-ATX Motherboard</td>
+                    <td>Smaller ATX</td>
+                    <td>1 (Socket)</td>
+                    <td>2-4</td>
+                    <td>Intel H470, B460</td>
+                    <td>UEFI BIOS</td>
+                    <td>3-4</td>
+                    <td>4-6</td>
+                    <td>Compact, balance between performance and expansion</td>
+                </tr>
+                <tr>
+                    <td>Mini ITX Motherboard</td>
+                    <td>Very small</td>
+                    <td>1 (Socket)</td>
+                    <td>2-4</td>
+                    <td>Intel Z590, AMD B450</td>
+                    <td>UEFI BIOS</td>
+                    <td>1-2</td>
+                    <td>2-4</td>
+                    <td>Ultra-compact, ideal for small builds, fewer expansion slots</td>
+                </tr>
+                <tr>
+                    <td>Mini-ATX Motherboard</td>
+                    <td>Smaller ATX</td>
+                    <td>1 (Socket)</td>
+                    <td>2-4</td>
+                    <td>Intel B360, AMD A320</td>
+                    <td>UEFI BIOS</td>
+                    <td>2-4</td>
+                    <td>2-4</td>
+                    <td>Compact version of ATX with fewer features and expansion slots</td>
+                </tr>
+                <tr>
+                    <td>Pico BTX Motherboard</td>
+                    <td>Extremely small</td>
+                    <td>1 (Socket)</td>
+                    <td>2-4</td>
+                    <td>Intel 915, 945</td>
+                    <td>Legacy BIOS</td>
+                    <td>1-2</td>
+                    <td>2-3</td>
+                    <td>Ultra-compact, designed for extremely small form factor PCs</td>
+                </tr>
+                <tr>
+                    <td>Standard-ATX Motherboard</td>
+                    <td>Standard</td>
+                    <td>1-2 (Socket)</td>
+                    <td>2-8</td>
+                    <td>Intel H470, AMD B550</td>
+                    <td>UEFI BIOS, Secure Boot</td>
+                    <td>5-7</td>
+                    <td>4-6</td>
+                    <td>Similar to ATX, interchangeable in many cases</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="portfolio-text">
+        <h2 class="portfolio-header">Discussion</h2>
+        <p>
+            Motherboards differ in size and form factor, and not to forget in the feature set they offer.
+            Therefore, it would be wise to select a motherboard based on the intended use case.
+            For instance, an ATX motherboard would be suited best for general-purpose and
+            gaming systems since they come with abundant PCIe slots, allow multiple GPUs, and
+            also boast high capacity concerning RAM. While mini-ITX motherboards save space,
+            these are still reserved for minimalist builds or small-form-factor PCs when mobility or
+            having limited desk space is paramount. The larger options, the Extended-ATX, are
+            more likely to appeal to the pros who require more expansion slots for CPUs, more
+            RAM slots, and support for expansive expansion cards. These would naturally
+            constitute standard fare for workstations or server-grade configurations. With this in
+            mind, users should be able to optimize the performance, space, and cost to meet their
+            specific needs. <br><br>
+            Other factors include the chipset and BIOS type, as these elements go a long way in
+            dictating the functionality of a motherboard. Most motherboards are now equipped with
+            UEFI BIOS for better security, aside from having an extremely user-friendly interface as
+            opposed to legacy BIOS systems.Chipsets like Intel's Z590 or AMD's B550 support
+            features such as PCIe 4.0, high-speed USB ports, and overclocking capacities that
+            enthusiasts and gamers may require. On the other hand, Micro-ATX or Mini-ATX boards
+            are less expensive and use less complex chipsets; therefore, they balance good
+            performance with cost. Embedded features in boards can vary; these include possibly
+            integrated Wi-Fi and Bluetooth, as well as advanced cooling solutions, which have
+            differences among motherboard types and are an important feature to the user
+            experience. Constantly being innovated, such developments push the limits of what
+            motherboards can do in delivering seamless computing experiences.
+
+        </p>
+
+    </div>
 
 </div>
 

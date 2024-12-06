@@ -14,14 +14,15 @@
 <div class="top-container">
 
     <header>
+        <img src="Images/Enehana.png">
         <h1>Enehana</h1>
     </header>
 
     <nav class="main-nav">
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolios.html" class="active">Portfolios</a></li>
+            <li><a href="home.html"  class="main-nav-home">Home</a></li>
+            <li><a href="about.html" class="main-nav-home">About</a></li>
+            <li><a href="portfolios.html" class="main-nav-home active">Portfolios</a></li>
         </ul>
     </nav>
 
@@ -32,22 +33,236 @@
     <nav>
         <h3>Portfolios</h3>
         <ul>
-            <li><a href="portfolio1.html">Portfolio 1</a></li>
-            <li><a href="portfolio2.html">Portfolio 2</a></li>
-            <li><a href="portfolio3.html">Portfolio 3</a></li>
-            <li><a href="portfolio4.html">Portfolio 4</a></li>
-            <li><a href="portfolio5.html">Portfolio 5</a></li>
-            <li><a href="portfolio6.html">Portfolio 6</a></li>
+            <li><a href="portfolio1.html">Computer Science as Discipline, Computing Disciplines and Majors</a></li>
+            <li><a href="portfolio2.html">Data, Information, and Information Systems</a></li>
+            <li><a href="portfolio3.html">Number Systems</a></li>
+            <li><a href="portfolio4.html">Computer Hardware and Software: Their Implementation in the different institutions in the community</a></li>
+            <li><a href="portfolio5.html">Comparative Study On Different Types Of Motherboards</a></li>
+            <li><a href="portfolio6.html" class="active">Comparative Study on Different Types of Computers</a></li>
         </ul>
     </nav>
 
 </div>
 
-<div class="pdf-container">
+    <div class="portfolio-container">
+        <h2 class="portfolio-main-header">Comparative Study on Different Types of Computers | Portfolio #6</h2>
 
-    <iframe src="PDFs/portfolio6.pdf" frameborder="0"></iframe>
+        <div class="portfolio-text">
+            <h2 class="portfolio-header">Introduction</h2>
+            <p>
+                There are various kinds of computers in the world of computing that address differing
+                needs by processing power, memory, energy consumption, and intended use. From the
+                personal computing devices, known as microcomputers, through to the
+                high-performance systems such as servers and workstations, there is a whole variety of
+                differences set by each kind of computer as it differentiates its computational
+                capabilities with very different power requirements for each. Understanding these
+                differences is an important step in selecting the right system for personal, professional,
+                or enterprise-level tasks.
 
-</div>
+            </p>
+    
+        </div>
+
+        <div class="portfolio-text" style="border-width: 0px;">
+            <h2 class="portfolio-header">Computer Types</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name/Brand</th>
+                        <th>CPU</th>
+                        <th>Memory</th>
+                        <th>Processing Speed</th>
+                        <th>Calculating Power</th>
+                        <th>Working Principle</th>
+                        <th>Energy Consumed</th>
+                        <th>Field of Use</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Supercomputer (IBM Blue Gene, Cray XT5)</td>
+                        <td>Multiple processors (100,000 cores), high clock frequency, multiple cores, multi-threaded</td>
+                        <td>Petabytes of memory, high-speed interconnects</td>
+                        <td>Extremely high (100+ teraflops)</td>
+                        <td>Petaflops (PFLOPS), Exaflops (EFLOPS)</td>
+                        <td>Parallel computing, massively distributed systems for complex simulations</td>
+                        <td>Very high, 15-30 MW with dedicated cooling systems</td>
+                        <td>Weather forecasting, molecular modeling, scientific simulations, cryptography, AI research</td>
+                    </tr>
+                    <tr>
+                        <td>Mainframe Computers (IBM Z Series, Unisys ClearPath)</td>
+                        <td>High-frequency processors, up to 12 cores or more</td>
+                        <td>Gigabytes to terabytes</td>
+                        <td>High-speed processing with high I/O throughput</td>
+                        <td>MIPS (Millions of Instructions Per Second)</td>
+                        <td>Processes vast amounts of data concurrently, with high I/O for banking and enterprise applications</td>
+                        <td>High, typically 10-20 KW</td>
+                        <td>Banking, insurance, large enterprises, government organizations, transaction processing</td>
+                    </tr>
+                    <tr>
+                        <td>Mini Computers (Digital Equipment PDP-11, VAX)</td>
+                        <td>Single or multi-core processors with moderate clock speed</td>
+                        <td>Several gigabytes</td>
+                        <td>Moderate, handles concurrent tasks</td>
+                        <td>Measured in MIPS, moderate power (hundreds of MIPS)</td>
+                        <td>Process smaller batches of data for medium-scale tasks in organizations</td>
+                        <td>Medium to low, approximately 2-10 KW</td>
+                        <td>Small to medium enterprises, industrial control systems, education, laboratories</td>
+                    </tr>
+                    <tr>
+                        <td>Server (Dell PowerEdge, HP ProLiant)</td>
+                        <td>Multi-core processors (e.g., Intel Xeon, AMD EPYC), high clock speed</td>
+                        <td>Several terabytes (ECC RAM)</td>
+                        <td>High, designed for network operations</td>
+                        <td>High MIPS, Gigaflops for real-time requests</td>
+                        <td>Manages network resources, data storage, and application hosting</td>
+                        <td>Medium, 1-10 KW depending on load</td>
+                        <td>Web hosting, cloud computing, data storage, file servers, enterprise applications</td>
+                    </tr>
+                    <tr>
+                        <td>Workstations (HP Z8 G4, Apple Mac Pro)</td>
+                        <td>High-end processors (e.g., Intel Xeon, AMD Ryzen), up to 64 cores</td>
+                        <td>16 GB to 2 TB RAM, high bandwidth memory</td>
+                        <td>High processing power, strong graphical performance</td>
+                        <td>Measured in GFLOPS to TFLOPS</td>
+                        <td>Optimized for graphic design, engineering, scientific research, specialized tasks</td>
+                        <td>Moderate, 300 W to 1.2 KW</td>
+                        <td>3D rendering, video editing, scientific research, CAD, simulation modeling</td>
+                    </tr>
+                    <tr>
+                        <td>Micro Computers (Apple Macbook, Dell Inspiron)</td>
+                        <td>Low-power processors (e.g., Intel Core i5/i7, Apple M1), up to 8 cores</td>
+                        <td>4 GB to 64 GB, SSDs or HDDs</td>
+                        <td>Moderate, typical clock rates (2-4 GHz)</td>
+                        <td>MIPS, lower FLOPS for general-purpose use</td>
+                        <td>General-purpose computing tasks, running common software applications</td>
+                        <td>Low, 20-200 W depending on model and usage</td>
+                        <td>Personal computing, education, light office work, internet browsing, gaming</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="portfolio-text" style="border-width: 0px;">
+            <h2 class="portfolio-header">Examples</h2>
+            <table border="1" style="width: 100%; border-collapse: collapse; text-align: left;">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Sample Image</th>
+                        <th>Description</th>
+                        <th>Usage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Supercomputer</td>
+                        <td></td>
+                        <td>A supercomputer is a high-performance machine designed to perform complex calculations and simulations at extremely high speeds, often using thousands or even millions of processors.</td>
+                        <td>Used for weather forecasting, scientific simulations, artificial intelligence research, cryptography, and nuclear modeling.</td>
+                    </tr>
+                    <tr>
+                        <td>Mainframe Computers</td>
+                        <td></td>
+                        <td>Large, powerful systems capable of handling and processing large amounts of data simultaneously. Known for their high reliability, security, and high-volume transaction processing.</td>
+                        <td>Typically used in banking, government organizations, insurance, and large-scale enterprise applications.</td>
+                    </tr>
+                    <tr>
+                        <td>Mini Computers</td>
+                        <td></td>
+                        <td>Smaller than mainframes, but still capable of handling multiple users and large volumes of data. Often used for tasks requiring less power than a mainframe but more than a microcomputer.</td>
+                        <td>Used in scientific labs, small businesses, industrial control systems, and research environments.</td>
+                    </tr>
+                    <tr>
+                        <td>Server</td>
+                        <td></td>
+                        <td>A server is a computer that provides data, resources, or services to other computers (clients) over a network. Often equipped with powerful processors, large amounts of memory, and robust storage.</td>
+                        <td>Hosting websites, file storage, data processing, cloud computing, and enterprise applications like email or databases.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="portfolio-text" style="border-width: 0px;"> 
+            <h2 class="portfolio-header">Comparison Table</h2>
+            <table border="1" style="width: 100%; border-collapse: collapse; text-align: left;">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Mini Computer</th>
+                        <th>Micro Computer</th>
+                        <th>Workstation</th>
+                        <th>Server</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Processing Speed</b></td>
+                        <td>Moderate (1-10 GHz)</td>
+                        <td>Low to Medium (2-5 GHz)</td>
+                        <td>High (2-4.5 GHz or higher)</td>
+                        <td>High (multi-core, 2-3.5 GHz or higher)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Memory Capacity</b></td>
+                        <td>Several GB to a few TB</td>
+                        <td>4 GB to 64 GB</td>
+                        <td>16 GB to 2 TB</td>
+                        <td>64 GB to several TB (more for enterprise)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Power Consumption</b></td>
+                        <td>Medium (200W - 1000W)</td>
+                        <td>Low (30W - 300W)</td>
+                        <td>Medium to High (300W - 1200W)</td>
+                        <td>High (200W - 2000W)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Minimum Requirements</b></td>
+                        <td>Multi-core processor, several GB of RAM</td>
+                        <td>Standard microprocessor, 4GB-16GB RAM</td>
+                        <td>High-end CPU, 16GB or more</td>
+                        <td>Multi-core processors, 64GB or more RAM, large storage</td>
+                    </tr>
+                    <tr>
+                        <td><b>Usage</b></td>
+                        <td>Small to medium businesses, industrial control</td>
+                        <td>Personal computing, gaming, office work</td>
+                        <td>3D rendering, CAD, video editing, simulations</td>
+                        <td>Web hosting, data storage, cloud computing, enterprise applications</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="portfolio-text">
+            <h2 class="portfolio-header">Discussion</h2>
+            <p>
+                Mini computers are designed for moderate workloads and find applications in small to
+                medium-sized business or research environments. They lie between the more powerful
+                mainframes and the consumer-oriented microcomputers. Though capable of serving
+                multiple users with moderate volumes of data, they do not match the incredible
+                processing speeds or memory capacities of higher-level systems. Instead,
+                microcomputers, also known as personal computers, are those that are most widely
+                used and are suitable for general-purpose uses such as surfing the internet, playing
+                games, using office applications, and watching media. These have just enough
+                processing speed and memory to accommodate each day's use but do not have
+                enough power for high-performance computing chores. <br><br>
+                Workstations, intended for resource-intensive operations like 3D rendering, CAD, and
+                scientific simulations, provide much more processing power and memory than
+                microcomputers. Optimized for performance, these often come with multi-core
+                processors, large memory capacities, and specialized graphics hardware. In contrast,
+                servers are powerful machines responsible for network resource management, hosting
+                websites, and processing large volumes of data for enterprise applications. Servers
+                often support multiple users simultaneously and are designed for high availability and
+                reliability, making them essential for cloud computing and business-critical operations.
+                Although their power consumption is higher than that of microcomputers, their
+                processing capabilities and memory are far superior, allowing them to handle extensive
+                workloads across various industries.
+            </p>
+
+    </div>
 
     
 
