@@ -2,17 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
+
 }
 
+/* Global Styles */
 
-
-body {
-    
+body, html {
+    margin :0;
+    overflow-x: hidden;
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     background-color:  #171717;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100%;
    
 }
 
@@ -26,7 +30,7 @@ header {
     color:#eaeaea;
     padding: 10px;
     text-align: left;
-    margin-left: 400px;
+    margin-left: 10%;
     transition: 0.6s linear;
     
 }
@@ -51,9 +55,12 @@ iframe {
 main {
 
     display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
     flex: 1;
-    margin: 100px;
-    gap: 10px;
+    margin: 20px auto;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 h3 {
@@ -78,16 +85,38 @@ article {
     border-radius: 10px;
     text-align: justify;
     font-size: 25px;
-    width: 1000px;
+    width: 80%;
     margin-top: 50px;
 } 
 
+table {
+    width: 100%;
+    table-layout: relative; 
+    border-collapse: collapse;
+
+}
+
+td, th {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+/* Global Styles END */
+
+.table-container {
+    overflow-x: auto;
+    width: 100%;
+    max-width: 100%; 
+}
+
 .articles {
-    margin-right: 100px;
+
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    flex: 1;
+    gap: 20px;
+    flex: 1 1 100%;
 }
 
 .top-container {
@@ -182,19 +211,17 @@ article {
 
 /* Sidebar for Portfolios */
 
-
-
 .sidebar {
-    align-items: center;
-    gap: 0.75rem;
-    width: 250px;
-    background-color: #171717; 
-    color: white;
+    
+    flex: 0 0 250px; 
+    max-width: 250px; 
+    width: 100%;
     padding: 20px;
-    height: 450px;
-    position: fixed; 
-    margin-top: 200px;
-    margin-left: 100px;
+    background-color: #171717;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+    
     
 }
 
@@ -245,8 +272,8 @@ article {
 
 .card{
     
-    width: 950px;
-    height: 360px;
+    width: 90%;
+    height: auto;
     padding: 2rem 1rem;
     background: #fff;
     position: relative;
@@ -328,11 +355,21 @@ article {
 
 .card .info .portfolio-button:hover{
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    
 }
+
+
+
+
 .portfolio-item a {
     text-decoration: none;
     color: #eaeaea;
     font-weight: bold;
+}
+
+.portfolio-whole-page{
+    display:flex;
+    justify-content: center;
 }
 
 .portfolio-main-header{
@@ -346,14 +383,15 @@ article {
 }
 
 .portfolio-container {
-    width: 1000px;
-    margin: 20px auto; 
-    text-align: center; 
+
+    flex: 1; 
+    max-width: 70%; 
+    width: 100%;
+
     
   }
   
   .portfolio-header {
-    display: flex;
     font-size: 30px; 
     color: #ffffff; 
     margin-bottom: 20px; 
@@ -364,7 +402,8 @@ article {
   
   .portfolio-text {
 
-    width: 1300px;
+    margin: auto;
+    width: 100%;
     border: solid;
     border-width: 1px;
     margin: 0 auto;
@@ -376,6 +415,42 @@ article {
     margin-bottom: 30px;
     
   }
+
+
+@media (max-width: 1024px) {
+    .sidebar {
+        flex: 0 0 220px; 
+        max-width: 220px;
+    }
+
+    .portfolio-container {
+        max-width: 60%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        flex: 0 0 200px;
+        max-width: 200px;
+    }
+
+    .portfolio-container {
+        max-width: 55%; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .sidebar {
+        flex: 0 0 150px; 
+        max-width: 150px;
+    }
+
+    .portfolio-container {
+        max-width: 50%;
+    }
+}
 
 
 footer {
