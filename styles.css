@@ -433,8 +433,8 @@ footer {
 
 footer img {
 
-    height:5%;
-    width:5%;
+    max-height:5%;
+    max-width:5%;
 
 }
 
