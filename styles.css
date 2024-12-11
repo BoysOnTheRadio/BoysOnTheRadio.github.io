@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-    border-style: solid;
 }
 
 /* Global Styles */
@@ -94,7 +93,7 @@ td, th {
 }
 
 .home{
-    
+
     width: 90%;
     justify-content: center;
 }
